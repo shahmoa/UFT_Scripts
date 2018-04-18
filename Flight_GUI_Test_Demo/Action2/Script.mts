@@ -6,5 +6,5 @@ WpfWindow("HPE MyFlight Sample Applicatio").WpfButton("SELECT FLIGHT").Click @@ 
 WpfWindow("HPE MyFlight Sample Applicatio").WpfEdit("passengerName").Set "john" @@ hightlight id_;_2068448752_;_script infofile_;_ZIP::ssf8.xml_;_
 WpfWindow("HPE MyFlight Sample Applicatio").WpfButton("ORDER").Click @@ hightlight id_;_2070830584_;_script infofile_;_ZIP::ssf9.xml_;_
 wait 2
-WpfWindow("HPE MyFlight Sample Applicatio").WpfObject("Order # completed").Check CheckPoint("Order 91 completed")
+WpfWindow("HPE MyFlight Sample Applicatio").WpfObject("Order # completed").Check CheckPoint("Order # completed")
 WpfWindow("HPE MyFlight Sample Applicatio").Close
